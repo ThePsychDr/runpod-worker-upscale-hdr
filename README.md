@@ -11,11 +11,11 @@ All stages are optional. The pipeline auto-detects optimal settings based on inp
 
 ## Performance
 
-| GPU | ~sec/frame (4K output) | Cost/1000 frames |
-|-----|----------------------|-----------------|
-| RTX 4090 | ~2.0s | $0.62 |
-| L40S | ~2.2s | $1.17 |
-| A6000 | ~3.0s | $0.96 |
+| GPU | ~sec/frame (4K output) |
+|-----|----------------------|
+| RTX 4090 | ~2.0s |
+| L40S | ~2.2s |
+| A6000 | ~3.0s |
 
 ## Deploy on RunPod
 
