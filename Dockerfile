@@ -56,8 +56,8 @@ RUN git clone --branch n7.1 --depth 1 https://git.ffmpeg.org/ffmpeg.git /tmp/ffm
 
 # ─── Python dependencies ──────────────────────────────────────────────────────
 
-RUN pip install --no-cache-dir --no-deps torchvision==0.24.1 && \
-    pip install --no-cache-dir \
+# torch + torchvision already in base image (PyTorch 2.9.1 + CUDA 12.8.1)
+RUN pip install --no-cache-dir \
     basicsr==1.4.2 \
     realesrgan==0.3.0 \
     gfpgan==1.3.8 \
